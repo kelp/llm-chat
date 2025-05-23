@@ -82,9 +82,6 @@ def main():
             
         print(response1)
         
-        if round_num == args.rounds - 1:
-            break
-            
         time.sleep(args.delay)
         
         # Model 2's turn
